@@ -27,6 +27,7 @@ ${PROJECT_ROOT}
 ├── yamlfile
 ├── posetrain.py
 ├── README.md
+├── yolov8n-pose.pt
 ├── requirements.txt
 ```
 
@@ -36,6 +37,21 @@ ${PROJECT_ROOT}
 
 1. **Download Dataset**:
    You can download https://pan.baidu.com/s/1ECD7hMsq-mu_32PjysJonA?pwd=0000 提取码: 0000
+   
+3. **Prepare the Data**:
+   Ensure your dataset is organized as follows:
+   ```plaintext
+   ${PROJECT_ROOT}/dataset
+   └── xHPE
+       ├── images
+       │   ├── train
+       │   ├── val
+       │   ├── test
+       └── labels
+           ├── train
+           ├── val
+           ├── test
+   ```
 
 ## Training
 
