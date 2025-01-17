@@ -6,3 +6,13 @@ In data.zip, you will have two files,images and npy.
 The blocks folder contains the source code for all the modules we work with, including ela, and yamlfile contains all the yaml files for yolov8pose, describing different network structures.
 
 
+${POSE_ROOT}
+├── data
+├── experiments
+├── lib
+├── log
+├── models
+├── output
+├── tools 
+├── README.md
+└── requirements.txt
